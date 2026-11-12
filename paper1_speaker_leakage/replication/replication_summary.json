@@ -1,0 +1,525 @@
+{
+ "b21": {
+  "n_models": 11,
+  "models": [
+   "Logistic Regression",
+   "LDA",
+   "Gaussian NB",
+   "k-NN",
+   "Decision Tree",
+   "SVM (RBF)",
+   "Random Forest",
+   "Extra Trees",
+   "Gradient Boosting",
+   "XGBoost",
+   "MLP"
+  ],
+  "accuracy": {
+   "A_mean": 0.7489979156645823,
+   "B_mean": 0.716249799583133,
+   "inflation_pp": 3.274811608144941,
+   "range_pp": [
+    0.0,
+    6.6578483245149815
+   ],
+   "models_degraded": 10
+  },
+  "balanced_accuracy": {
+   "A_mean": 0.671305810767247,
+   "B_mean": 0.639103803997421,
+   "inflation_pp": 3.2202006769825924,
+   "range_pp": [
+    -0.057254728132394295,
+    8.40536347517732
+   ],
+   "models_degraded": 10
+  },
+  "roc_auc": {
+   "A_mean": 0.7860522892936458,
+   "B_mean": 0.7132928912350455,
+   "inflation_pp": 7.27593980586002,
+   "range_pp": [
+    1.0282764479905393,
+    13.997549743892845
+   ],
+   "models_degraded": 11
+  },
+  "specificity": {
+   "A_mean": 0.5134154040404041,
+   "B_mean": 0.4823232323232324,
+   "inflation_pp": 3.109217171717174,
+   "range_pp": [
+    -10.93749999999999,
+    15.451388888888879
+   ],
+   "models_degraded": 8
+  },
+  "mcc": {
+   "A_mean": 0.3722592533448031,
+   "B_mean": 0.2925743386364484,
+   "inflation_pp": 7.968491470835457,
+   "range_pp": [
+    -0.12167034436012802,
+    16.13174648666732
+   ],
+   "models_degraded": 10
+  },
+  "per_model_A": {
+   "Logistic Regression": {
+    "accuracy": 0.7103174603174603,
+    "balanced_accuracy": 0.7119533096926713,
+    "roc_auc": 0.789985963356974,
+    "specificity": 0.7152777777777778,
+    "mcc": 0.3768209264852144
+   },
+   "LDA": {
+    "accuracy": 0.7857142857142857,
+    "balanced_accuracy": 0.6296542553191489,
+    "roc_auc": 0.7812469217888102,
+    "specificity": 0.3125,
+    "mcc": 0.34852572989326625
+   },
+   "Gaussian NB": {
+    "accuracy": 0.4801587301587302,
+    "balanced_accuracy": 0.5983488475177304,
+    "roc_auc": 0.7002407161150512,
+    "specificity": 0.8385416666666666,
+    "mcc": 0.18543348737889417
+   },
+   "k-NN": {
+    "accuracy": 0.7773368606701941,
+    "balanced_accuracy": 0.6240395981087471,
+    "roc_auc": 0.778730484141056,
+    "specificity": 0.3125,
+    "mcc": 0.323832494281075
+   },
+   "Decision Tree": {
+    "accuracy": 0.7601410934744268,
+    "balanced_accuracy": 0.7058399822695035,
+    "roc_auc": 0.7313629703506699,
+    "specificity": 0.5954861111111112,
+    "mcc": 0.3956764598189768
+   },
+   "SVM (RBF)": {
+    "accuracy": 0.7482363315696648,
+    "balanced_accuracy": 0.7196180555555557,
+    "roc_auc": 0.7901768124507486,
+    "specificity": 0.6614583333333334,
+    "mcc": 0.4055361777754862
+   },
+   "Random Forest": {
+    "accuracy": 0.7958553791887125,
+    "balanced_accuracy": 0.6690861406619385,
+    "roc_auc": 0.8204279329196217,
+    "specificity": 0.4114583333333333,
+    "mcc": 0.4026850744098038
+   },
+   "Extra Trees": {
+    "accuracy": 0.8002645502645502,
+    "balanced_accuracy": 0.6560098995271867,
+    "roc_auc": 0.8415752437943264,
+    "specificity": 0.36284722222222227,
+    "mcc": 0.40398145895840826
+   },
+   "Gradient Boosting": {
+    "accuracy": 0.7958553791887124,
+    "balanced_accuracy": 0.6828272754137116,
+    "roc_auc": 0.8032807574862096,
+    "specificity": 0.453125,
+    "mcc": 0.4141134797113381
+   },
+   "XGBoost": {
+    "accuracy": 0.7936507936507936,
+    "balanced_accuracy": 0.6784869976359338,
+    "roc_auc": 0.8119920951536642,
+    "specificity": 0.4444444444444445,
+    "mcc": 0.4061204376304723
+   },
+   "MLP": {
+    "accuracy": 0.7914462081128749,
+    "balanced_accuracy": 0.7084995567375887,
+    "roc_auc": 0.7975552846729709,
+    "specificity": 0.5399305555555555,
+    "mcc": 0.43212606044989793
+   }
+  },
+  "per_model_B": {
+   "Logistic Regression": {
+    "accuracy": 0.699294532627866,
+    "balanced_accuracy": 0.6942597517730497,
+    "roc_auc": 0.7669270833333331,
+    "specificity": 0.6840277777777777,
+    "mcc": 0.34609534852189466
+   },
+   "LDA": {
+    "accuracy": 0.7799823633156967,
+    "balanced_accuracy": 0.6200871749408984,
+    "roc_auc": 0.7641566932624113,
+    "specificity": 0.2951388888888889,
+    "mcc": 0.3265103644016974
+   },
+   "Gaussian NB": {
+    "accuracy": 0.4801587301587302,
+    "balanced_accuracy": 0.5989213947990544,
+    "roc_auc": 0.6899579516351458,
+    "specificity": 0.8402777777777777,
+    "mcc": 0.18665019082249545
+   },
+   "k-NN": {
+    "accuracy": 0.7407407407407408,
+    "balanced_accuracy": 0.5674497635933805,
+    "roc_auc": 0.6721274133175729,
+    "specificity": 0.2152777777777778,
+    "mcc": 0.1843137850252624
+   },
+   "Decision Tree": {
+    "accuracy": 0.7213403880070547,
+    "balanced_accuracy": 0.6758274231678487,
+    "roc_auc": 0.6639793882978723,
+    "specificity": 0.5833333333333334,
+    "mcc": 0.3279670283299367
+   },
+   "SVM (RBF)": {
+    "accuracy": 0.681657848324515,
+    "balanced_accuracy": 0.6503767730496454,
+    "roc_auc": 0.6957696143617023,
+    "specificity": 0.5868055555555555,
+    "mcc": 0.27272535248900936
+   },
+   "Random Forest": {
+    "accuracy": 0.7535273368606701,
+    "balanced_accuracy": 0.6601839539007092,
+    "roc_auc": 0.7052735914105596,
+    "specificity": 0.47048611111111116,
+    "mcc": 0.3309967893188546
+   },
+   "Extra Trees": {
+    "accuracy": 0.7358906525573192,
+    "balanced_accuracy": 0.648936170212766,
+    "roc_auc": 0.7015997463553979,
+    "specificity": 0.47222222222222215,
+    "mcc": 0.30009433766216076
+   },
+   "Gradient Boosting": {
+    "accuracy": 0.77336860670194,
+    "balanced_accuracy": 0.6414191784869976,
+    "roc_auc": 0.7241414868991333,
+    "specificity": 0.37326388888888884,
+    "mcc": 0.33468681188645605
+   },
+   "XGBoost": {
+    "accuracy": 0.7707231040564374,
+    "balanced_accuracy": 0.6482343380614658,
+    "roc_auc": 0.7447054767533491,
+    "specificity": 0.3993055555555556,
+    "mcc": 0.33746912095994075
+   },
+   "MLP": {
+    "accuracy": 0.7420634920634921,
+    "balanced_accuracy": 0.6244459219858155,
+    "roc_auc": 0.7175833579590228,
+    "specificity": 0.3854166666666667,
+    "mcc": 0.27080859558322473
+   }
+  }
+ },
+ "f752": {
+  "n_models": 10,
+  "models": [
+   "Logistic Regression",
+   "LDA",
+   "Gaussian NB",
+   "k-NN",
+   "Decision Tree",
+   "SVM (RBF)",
+   "Random Forest",
+   "Extra Trees",
+   "XGBoost",
+   "MLP"
+  ],
+  "accuracy": {
+   "A_mean": 0.857716049382716,
+   "B_mean": 0.7985890652557319,
+   "inflation_pp": 5.912698412698414,
+   "range_pp": [
+    2.1164021164021274,
+    9.92063492063493
+   ],
+   "models_degraded": 10
+  },
+  "balanced_accuracy": {
+   "A_mean": 0.7892139479905438,
+   "B_mean": 0.7104813091016549,
+   "inflation_pp": 7.873263888888893,
+   "range_pp": [
+    1.933732269503552,
+    11.80186170212767
+   ],
+   "models_degraded": 10
+  },
+  "roc_auc": {
+   "A_mean": 0.9051370727442869,
+   "B_mean": 0.8092304779846335,
+   "inflation_pp": 9.590659475965326,
+   "range_pp": [
+    2.6826610520094607,
+    13.71573950945626
+   ],
+   "models_degraded": 10
+  },
+  "specificity": {
+   "A_mean": 0.65,
+   "B_mean": 0.5314236111111111,
+   "inflation_pp": 11.85763888888889,
+   "range_pp": [
+    1.5625,
+    23.26388888888889
+   ],
+   "models_degraded": 10
+  },
+  "mcc": {
+   "A_mean": 0.6224165264958661,
+   "B_mean": 0.4574732903636467,
+   "inflation_pp": 16.494323613221933,
+   "range_pp": [
+    4.2717717637728025,
+    27.51365974417358
+   ],
+   "models_degraded": 10
+  },
+  "per_model_A": {
+   "Logistic Regression": {
+    "accuracy": 0.8324514991181658,
+    "balanced_accuracy": 0.8035424054373523,
+    "roc_auc": 0.8985667848699764,
+    "specificity": 0.7447916666666666,
+    "mcc": 0.5813036666076449
+   },
+   "LDA": {
+    "accuracy": 0.853615520282187,
+    "balanced_accuracy": 0.7730681146572104,
+    "roc_auc": 0.8850595941686367,
+    "specificity": 0.609375,
+    "mcc": 0.5923910945521783
+   },
+   "Gaussian NB": {
+    "accuracy": 0.7949735449735451,
+    "balanced_accuracy": 0.7538046690307328,
+    "roc_auc": 0.7760570577226162,
+    "specificity": 0.6701388888888888,
+    "mcc": 0.4862472792336734
+   },
+   "k-NN": {
+    "accuracy": 0.8602292768959435,
+    "balanced_accuracy": 0.756889036643026,
+    "roc_auc": 0.9340385515169425,
+    "specificity": 0.546875,
+    "mcc": 0.6045400949224015
+   },
+   "Decision Tree": {
+    "accuracy": 0.7888007054673721,
+    "balanced_accuracy": 0.761118498817967,
+    "roc_auc": 0.8094925876674547,
+    "specificity": 0.7048611111111112,
+    "mcc": 0.4903108310463393
+   },
+   "SVM (RBF)": {
+    "accuracy": 0.8985890652557319,
+    "balanced_accuracy": 0.8272569444444445,
+    "roc_auc": 0.9455402876280535,
+    "specificity": 0.6822916666666666,
+    "mcc": 0.720505231939612
+   },
+   "Random Forest": {
+    "accuracy": 0.8619929453262786,
+    "balanced_accuracy": 0.7494828605200946,
+    "roc_auc": 0.949785140858944,
+    "specificity": 0.5208333333333334,
+    "mcc": 0.6105168179691014
+   },
+   "Extra Trees": {
+    "accuracy": 0.8880070546737212,
+    "balanced_accuracy": 0.7955452127659575,
+    "roc_auc": 0.9683590671788811,
+    "specificity": 0.6076388888888888,
+    "mcc": 0.6903861196306029
+   },
+   "XGBoost": {
+    "accuracy": 0.9056437389770723,
+    "balanced_accuracy": 0.8359929078014184,
+    "roc_auc": 0.9572313337273443,
+    "specificity": 0.6944444444444445,
+    "mcc": 0.7410357999291266
+   },
+   "MLP": {
+    "accuracy": 0.8928571428571429,
+    "balanced_accuracy": 0.835438829787234,
+    "roc_auc": 0.927240322104019,
+    "specificity": 0.71875,
+    "mcc": 0.7069283291279801
+   }
+  },
+  "per_model_B": {
+   "Logistic Regression": {
+    "accuracy": 0.7857142857142857,
+    "balanced_accuracy": 0.7493166371158392,
+    "roc_auc": 0.83167417750197,
+    "specificity": 0.6753472222222222,
+    "mcc": 0.4722081942104923
+   },
+   "LDA": {
+    "accuracy": 0.8037918871252204,
+    "balanced_accuracy": 0.7184914302600474,
+    "roc_auc": 0.8017724340031521,
+    "specificity": 0.5451388888888888,
+    "mcc": 0.4598714982171446
+   },
+   "Gaussian NB": {
+    "accuracy": 0.7738095238095238,
+    "balanced_accuracy": 0.7344673463356973,
+    "roc_auc": 0.7492304472025216,
+    "specificity": 0.6545138888888888,
+    "mcc": 0.44352956159594537
+   },
+   "k-NN": {
+    "accuracy": 0.7998236331569665,
+    "balanced_accuracy": 0.6396830673758865,
+    "roc_auc": 0.8149210131008667,
+    "specificity": 0.3142361111111111,
+    "mcc": 0.39523046308991977
+   },
+   "Decision Tree": {
+    "accuracy": 0.7195767195767196,
+    "balanced_accuracy": 0.6895316193853427,
+    "roc_auc": 0.7371961805555557,
+    "specificity": 0.6284722222222222,
+    "mcc": 0.3472284656431533
+   },
+   "SVM (RBF)": {
+    "accuracy": 0.7993827160493826,
+    "balanced_accuracy": 0.7092383274231678,
+    "roc_auc": 0.8083828925334909,
+    "specificity": 0.5260416666666666,
+    "mcc": 0.4453686344978762
+   },
+   "Random Forest": {
+    "accuracy": 0.8201058201058201,
+    "balanced_accuracy": 0.6864841903073287,
+    "roc_auc": 0.8300042479314421,
+    "specificity": 0.4149305555555556,
+    "mcc": 0.4731224308494803
+   },
+   "Extra Trees": {
+    "accuracy": 0.8174603174603176,
+    "balanced_accuracy": 0.6955895390070922,
+    "roc_auc": 0.8322421074665091,
+    "specificity": 0.4479166666666667,
+    "mcc": 0.4692301032728304
+   },
+   "XGBoost": {
+    "accuracy": 0.8558201058201057,
+    "balanced_accuracy": 0.7562241430260048,
+    "roc_auc": 0.8716355151694247,
+    "specificity": 0.5538194444444444,
+    "mcc": 0.5917123897025615
+   },
+   "MLP": {
+    "accuracy": 0.810405643738977,
+    "balanced_accuracy": 0.7257867907801417,
+    "roc_auc": 0.8152457643814026,
+    "specificity": 0.5538194444444445,
+    "mcc": 0.4772311625570634
+   }
+  }
+ },
+ "loso_check_b21": {
+  "n_models": 11,
+  "roc_auc": {
+   "mean_abs_diff": 0.015253096120782255,
+   "correlation": 0.8933282784970625
+  },
+  "accuracy": {
+   "mean_abs_diff": 0.010582010582010581,
+   "correlation": 0.9814450728406761
+  },
+  "per_model_C": {
+   "Logistic Regression": {
+    "accuracy": 0.6957671957671958,
+    "balanced_accuracy": 0.6964760638297872,
+    "roc_auc": 0.7698636968085106,
+    "specificity": 0.6979166666666666,
+    "mcc": 0.34846795030603334
+   },
+   "LDA": {
+    "accuracy": 0.7817460317460317,
+    "balanced_accuracy": 0.6218417553191489,
+    "roc_auc": 0.7609153368794326,
+    "specificity": 0.296875,
+    "mcc": 0.33238668937142896
+   },
+   "Gaussian NB": {
+    "accuracy": 0.4801587301587302,
+    "balanced_accuracy": 0.5983488475177305,
+    "roc_auc": 0.6866550310283688,
+    "specificity": 0.8385416666666666,
+    "mcc": 0.1854217314456898
+   },
+   "k-NN": {
+    "accuracy": 0.7354497354497355,
+    "balanced_accuracy": 0.5633311170212766,
+    "roc_auc": 0.6785654920212765,
+    "specificity": 0.21354166666666666,
+    "mcc": 0.17024679342883514
+   },
+   "Decision Tree": {
+    "accuracy": 0.7658730158730159,
+    "balanced_accuracy": 0.6988031914893618,
+    "roc_auc": 0.6251246675531915,
+    "specificity": 0.5625,
+    "mcc": 0.3917409695015052
+   },
+   "SVM (RBF)": {
+    "accuracy": 0.6838624338624338,
+    "balanced_accuracy": 0.6696032801418439,
+    "roc_auc": 0.7232749704491725,
+    "specificity": 0.640625,
+    "mcc": 0.30306103607086027
+   },
+   "Random Forest": {
+    "accuracy": 0.7367724867724867,
+    "balanced_accuracy": 0.6449468085106382,
+    "roc_auc": 0.6631251846926715,
+    "specificity": 0.4583333333333333,
+    "mcc": 0.2945954015589985
+   },
+   "Extra Trees": {
+    "accuracy": 0.7288359788359788,
+    "balanced_accuracy": 0.6671099290780141,
+    "roc_auc": 0.6759197695035462,
+    "specificity": 0.5416666666666666,
+    "mcc": 0.3198522344901523
+   },
+   "Gradient Boosting": {
+    "accuracy": 0.7738095238095238,
+    "balanced_accuracy": 0.6440048758865248,
+    "roc_auc": 0.7278645833333334,
+    "specificity": 0.3802083333333333,
+    "mcc": 0.3374641733790338
+   },
+   "XGBoost": {
+    "accuracy": 0.7843915343915344,
+    "balanced_accuracy": 0.6665558510638298,
+    "roc_auc": 0.7452626329787233,
+    "specificity": 0.4270833333333333,
+    "mcc": 0.378588459826585
+   },
+   "MLP": {
+    "accuracy": 0.7632275132275133,
+    "balanced_accuracy": 0.6455008865248226,
+    "roc_auc": 0.7041869828605202,
+    "specificity": 0.40625,
+    "mcc": 0.3234353953596115
+   }
+  }
+ }
+}

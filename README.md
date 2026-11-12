@@ -36,20 +36,40 @@ Derived tables (`rev_*.csv`, `rev_*.json`), `out_of_fold_predictions.csv` (every
 
 `code/` has the nested speaker-disjoint runs (`run_nested.py`), cross-sex transfer, the confound dose-response, univariate and power-matched analyses, the Oxford F0-proxy analysis, summarisers and figure scripts. `oof_predictions/` holds one `.npz` per run (diagnosis, sex recovery, within-sex, transfer and all 40 dose-response draws); `results/` holds the final JSON summaries the manuscript quotes; `figures/` the figures.
 
-## Not yet included (documented gaps)
+### Added in v1.1.0 (Paper 1 replication analyses)
 
-Scripts for these Paper 1 analyses are not in this release; their numbers are reported in the manuscript but cannot yet be regenerated from this repository:
+| Script | Produces | Reproduction status |
+|---|---|---|
+| `paper1_speaker_leakage/code/rev6_speaker_probe.py` | Speaker re-identification, nearest-neighbour and ICC(1) analyses, both corpora (`probe_results.json`) | Table 4 reproduced; the only mismatch is the Oxford mean ICC(1), 0.699 / 0.745 here against 0.697 / 0.743 in the manuscript |
+| `paper1_speaker_leakage/code/rep1_protocolA_loso.py` | Replication-cohort record-wise (Protocol A) runs on Baseline-21 and Full-752, and the 252-fold leave-one-subject-out check on Baseline-21 (`replication/oof/`) | Table 6 and the LOSO check reproduced to within 0.1 pp on nearly every cell (see below) |
+| `paper1_speaker_leakage/code/rep2_summarise.py` | Table 6 / Table S8 summaries and the LOSO check (`replication/replication_summary.json`) | - |
+| `paper1_speaker_leakage/code/rev7_thinning.py` | Repetition-depth (thinning) experiment (`replication/thinning_results.csv`, `thinning_summary.json`) | **Pattern reproduced, numbers not exactly** (see below) |
 
-- the speaker re-identification, nearest-neighbour and ICC(1) analyses (both corpora);
-- the replication-cohort record-wise (Protocol A) runs and the 252-fold leave-one-subject-out check (the replication cohort's speaker-disjoint runs are `paper2_sex_confound/code/run_nested.py`, which reuses the same model definitions);
-- the repetition-depth (thinning) experiment;
-- the scripts for Figures 1-6 of the analysis bundle (images are included).
+Run order for the replication analyses (the Sakar file is the public UCI download; the zip contains a `.rar`, extract it with `tar -xf`):
 
-They will be added in a later version of this repository.
+```bash
+cd paper1_speaker_leakage
+python code/rev6_speaker_probe.py --sakar /path/to/pd_speech_features.csv
+python code/rep1_protocolA_loso.py /path/to/pd_speech_features.csv replication/oof b21 A 1,2,3   # also: f752 A 1,2,3 ; b21 C 1
+python code/rep2_summarise.py
+python code/rev7_thinning.py --jobs 4
+```
+
+The speaker-disjoint reference (Protocol B, subject-wise group 10-fold) for the replication cohort is taken from `paper2_sex_confound/oof_predictions/nested/`.
+
+Reproduction notes (checked against the Paper 1 manuscript at the time of release):
+
+- **Table 6 (record-wise vs speaker-disjoint, replication cohort):** the accuracy, balanced-accuracy and ROC-AUC rows reproduce exactly. Specificity and MCC differ by at most 0.1 pp in the mean (3.1 vs 3.0 pp, 8.0 vs 7.9 pp, 11.9 vs 11.8 pp, 16.5 vs 16.6 pp), and the lower bound of the Baseline-21 specificity range is -10.9 pp here against -11.6 pp.
+- **LOSO check:** mean absolute differences 0.015 (ROC-AUC) and 0.011 (accuracy) against 0.015 and 0.010 reported; the ROC-AUC correlation is 0.893 against 0.90 reported.
+- **Thinning experiment:** the manuscript does not name its six-classifier subset, so the default here is the six models of the Paper 2 dose-response experiment (logistic regression, LDA, k-NN, SVM, random forest, XGBoost). Accuracy inflation falls from 10.0 pp (k = 6) to 4.9 pp (k = 2) and balanced-accuracy inflation from 15.8 to 6.9 pp, while ROC-AUC inflation stays between 11.3 and 13.7 pp with no trend: the same pattern as Table S7 (10.9 to 5.7, 16.3 to 8.0, 10.8 to 13.6), but individual values differ by up to about 1.5 pp. No six-classifier subset of the released Protocol A/C results reproduces the manuscript's k = 6 row, so the original thinning run probably used a slightly different pipeline; it is not recoverable from the files available.
+
+## Not yet included
+
+- the scripts that draw Figures 1-6 of the Paper 1 analysis bundle (the images are in `paper1_speaker_leakage/figures/`).
 
 ## Environment
 
-`requirements.txt` pins the library versions used (also in `paper1_speaker_leakage/versions.json`). All analyses ran on CPU only (no GPU or CUDA) on a MacBook Air (Apple M4, 16 GB memory); estimators are scikit-learn / XGBoost (histogram tree method), with fixed random seeds.
+`requirements.txt` pins the library versions used (also in `paper1_speaker_leakage/versions.json`). All analyses ran on CPU only (no GPU or CUDA) on a MacBook Air (Apple M4, 16 GB memory); estimators are scikit-learn / XGBoost (histogram tree method), with fixed random seeds. On macOS, XGBoost needs the OpenMP runtime (`brew install libomp`).
 
 ## Licence
 

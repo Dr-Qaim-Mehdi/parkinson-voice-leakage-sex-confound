@@ -1,0 +1,102 @@
+{
+ "MLP": {
+  "baseline_oof_auc": 0.8939909297052154,
+  "importance": [
+   {
+    "Feature": "PPE",
+    "importance_mean": 0.12839781746031748,
+    "importance_sd": 0.059387847792306714
+   },
+   {
+    "Feature": "MDVP:Fo(Hz)",
+    "importance_mean": 0.12621456916099763,
+    "importance_sd": 0.04579789857421321
+   },
+   {
+    "Feature": "spread2",
+    "importance_mean": 0.11700538548752831,
+    "importance_sd": 0.04250723742769974
+   },
+   {
+    "Feature": "D2",
+    "importance_mean": 0.10937287414965988,
+    "importance_sd": 0.05516196486835771
+   },
+   {
+    "Feature": "spread1",
+    "importance_mean": 0.08875354308390027,
+    "importance_sd": 0.039783564472559554
+   },
+   {
+    "Feature": "MDVP:Fhi(Hz)",
+    "importance_mean": 0.07268990929705214,
+    "importance_sd": 0.034463697107507296
+   },
+   {
+    "Feature": "MDVP:Flo(Hz)",
+    "importance_mean": 0.024147534013605445,
+    "importance_sd": 0.031895557011443
+   },
+   {
+    "Feature": "MDVP:Jitter(%)",
+    "importance_mean": 0.02276643990929708,
+    "importance_sd": 0.028326622576740422
+   },
+   {
+    "Feature": "MDVP:Jitter(Abs)",
+    "importance_mean": 0.020486111111111135,
+    "importance_sd": 0.02041700793069203
+   }
+  ]
+ },
+ "SVM (RBF)": {
+  "baseline_oof_auc": 0.7974773242630385,
+  "importance": [
+   {
+    "Feature": "MDVP:Fo(Hz)",
+    "importance_mean": 0.12327947845804994,
+    "importance_sd": 0.054618931514243144
+   },
+   {
+    "Feature": "spread1",
+    "importance_mean": 0.11005031179138322,
+    "importance_sd": 0.04161946901088668
+   },
+   {
+    "Feature": "spread2",
+    "importance_mean": 0.09438740079365082,
+    "importance_sd": 0.03762123074936974
+   },
+   {
+    "Feature": "PPE",
+    "importance_mean": 0.07337974773242627,
+    "importance_sd": 0.036925804118242575
+   },
+   {
+    "Feature": "D2",
+    "importance_mean": 0.056028202947845746,
+    "importance_sd": 0.03458707210106047
+   },
+   {
+    "Feature": "MDVP:Fhi(Hz)",
+    "importance_mean": 0.042351544784580454,
+    "importance_sd": 0.02712755742680293
+   },
+   {
+    "Feature": "MDVP:Jitter(Abs)",
+    "importance_mean": 0.02600340136054418,
+    "importance_sd": 0.023130770614058768
+   },
+   {
+    "Feature": "MDVP:Jitter(%)",
+    "importance_mean": 0.023212514172335594,
+    "importance_sd": 0.026337296717313604
+   },
+   {
+    "Feature": "MDVP:Flo(Hz)",
+    "importance_mean": 0.02250744047619045,
+    "importance_sd": 0.01772743760680202
+   }
+  ]
+ }
+}

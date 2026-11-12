@@ -1,0 +1,92 @@
+f752 pooled dx s1 Logistic Regression: 5s
+f752 pooled dx s1 LDA: 8s
+f752 pooled dx s1 Gaussian NB: 1s
+f752 pooled dx s1 k-NN: 31s
+f752 pooled dx s1 Decision Tree: 41s
+f752 pooled dx s1 SVM (RBF): 103s
+f752 pooled dx s1 Random Forest: 120s
+f752 pooled dx s1 Extra Trees: 37s
+f752 pooled dx s1 XGBoost: 386s
+f752 pooled dx s1 MLP: 50s
+f752 men dx s1 Logistic Regression: 3s
+f752 men dx s1 LDA: 8s
+f752 men dx s1 Gaussian NB: 1s
+f752 men dx s1 k-NN: 18s
+f752 men dx s1 Decision Tree: 16s
+f752 men dx s1 SVM (RBF): 13s
+f752 men dx s1 Random Forest: 51s
+f752 men dx s1 Extra Trees: 25s
+f752 men dx s1 XGBoost: 205s
+f752 men dx s1 MLP: 29s
+f752 women dx s1 Logistic Regression: 2s
+f752 women dx s1 LDA: 8s
+f752 women dx s1 Gaussian NB: 1s
+f752 women dx s1 k-NN: 18s
+f752 women dx s1 Decision Tree: 16s
+f752 women dx s1 SVM (RBF): 13s
+f752 women dx s1 Random Forest: 52s
+f752 women dx s1 Extra Trees: 28s
+f752 women dx s1 XGBoost: 225s
+f752 women dx s1 MLP: 36s
+DONE f752 pooled,men,women 1 dx
+f752 pooled dx s2 Logistic Regression: 5s
+f752 pooled dx s2 LDA: 8s
+f752 pooled dx s2 Gaussian NB: 1s
+f752 pooled dx s2 k-NN: 26s
+f752 pooled dx s2 Decision Tree: 41s
+f752 pooled dx s2 SVM (RBF): 73s
+f752 pooled dx s2 Random Forest: 110s
+f752 pooled dx s2 Extra Trees: 40s
+f752 pooled dx s2 XGBoost: 441s
+f752 pooled dx s2 MLP: 76s
+f752 men dx s2 Logistic Regression: 4s
+f752 men dx s2 LDA: 11s
+f752 men dx s2 Gaussian NB: 1s
+f752 men dx s2 k-NN: 18s
+f752 men dx s2 Decision Tree: 23s
+f752 men dx s2 SVM (RBF): 22s
+f752 men dx s2 Random Forest: 78s
+f752 men dx s2 Extra Trees: 40s
+f752 men dx s2 XGBoost: 225s
+f752 men dx s2 MLP: 27s
+f752 women dx s2 Logistic Regression: 2s
+f752 women dx s2 LDA: 7s
+f752 women dx s2 Gaussian NB: 1s
+f752 women dx s2 k-NN: 20s
+f752 women dx s2 Decision Tree: 20s
+f752 women dx s2 SVM (RBF): 14s
+f752 women dx s2 Random Forest: 60s
+f752 women dx s2 Extra Trees: 29s
+f752 women dx s2 XGBoost: 244s
+f752 women dx s2 MLP: 30s
+f752 pooled dx s3 Logistic Regression: 4s
+f752 pooled dx s3 LDA: 8s
+f752 pooled dx s3 Gaussian NB: 1s
+f752 pooled dx s3 k-NN: 32s
+f752 pooled dx s3 Decision Tree: 49s
+f752 pooled dx s3 SVM (RBF): 58s
+f752 pooled dx s3 Random Forest: 113s
+f752 pooled dx s3 Extra Trees: 39s
+f752 pooled dx s3 XGBoost: 410s
+f752 pooled dx s3 MLP: 42s
+f752 men dx s3 Logistic Regression: 2s
+f752 men dx s3 LDA: 7s
+f752 men dx s3 Gaussian NB: 1s
+f752 men dx s3 k-NN: 19s
+f752 men dx s3 Decision Tree: 18s
+f752 men dx s3 SVM (RBF): 16s
+f752 men dx s3 Random Forest: 59s
+f752 men dx s3 Extra Trees: 29s
+f752 men dx s3 XGBoost: 219s
+f752 men dx s3 MLP: 26s
+f752 women dx s3 Logistic Regression: 2s
+f752 women dx s3 LDA: 7s
+f752 women dx s3 Gaussian NB: 1s
+f752 women dx s3 k-NN: 19s
+f752 women dx s3 Decision Tree: 20s
+f752 women dx s3 SVM (RBF): 15s
+f752 women dx s3 Random Forest: 60s
+f752 women dx s3 Extra Trees: 31s
+f752 women dx s3 XGBoost: 245s
+f752 women dx s3 MLP: 30s
+DONE f752 pooled,men,women 2,3 dx

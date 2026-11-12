@@ -1,0 +1,9 @@
+# Library versions used for the reported analyses (see paper1_speaker_leakage/versions.json)
+scikit-learn==1.8.0
+xgboost==3.2.0
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+statsmodels==0.15.0
+shap==0.51.0
+matplotlib

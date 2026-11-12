@@ -1,0 +1,11 @@
+{
+ "pipeline": "Regularised logistic regression, C = 1, class-weighted (pre-specified)",
+ "observed_auc": 0.8102324263038548,
+ "n_permutations": 2000,
+ "exceedances": 4,
+ "p_value": 0.0024987506246876563,
+ "null_mean": 0.46772238368355273,
+ "null_sd": 0.13771996234293823,
+ "null_p95": 0.6873977754320117,
+ "null_max": 0.8373015873015872
+}

@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.DS_Store
+rev_oof.pkl

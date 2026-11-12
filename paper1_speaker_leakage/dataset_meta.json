@@ -1,0 +1,47 @@
+{
+ "n_records": 195,
+ "n_subjects": 32,
+ "n_pd_records": 147,
+ "n_hc_records": 48,
+ "n_pd_subjects": 24,
+ "n_hc_subjects": 8,
+ "recs_per_subject": {
+  "6": 29,
+  "7": 3
+ },
+ "panel9": [
+  "MDVP:Fo(Hz)",
+  "MDVP:Fhi(Hz)",
+  "MDVP:Flo(Hz)",
+  "MDVP:Jitter(%)",
+  "MDVP:Jitter(Abs)",
+  "spread1",
+  "spread2",
+  "D2",
+  "PPE"
+ ],
+ "full22": [
+  "MDVP:Fo(Hz)",
+  "MDVP:Fhi(Hz)",
+  "MDVP:Flo(Hz)",
+  "MDVP:Jitter(%)",
+  "MDVP:Jitter(Abs)",
+  "MDVP:RAP",
+  "MDVP:PPQ",
+  "Jitter:DDP",
+  "MDVP:Shimmer",
+  "MDVP:Shimmer(dB)",
+  "Shimmer:APQ3",
+  "Shimmer:APQ5",
+  "MDVP:APQ",
+  "Shimmer:DDA",
+  "NHR",
+  "HNR",
+  "RPDE",
+  "DFA",
+  "spread1",
+  "spread2",
+  "D2",
+  "PPE"
+ ]
+}

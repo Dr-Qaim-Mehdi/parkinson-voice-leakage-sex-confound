@@ -1,0 +1,11 @@
+op,setting,prevalence,ppv,lr_pos,lr_neg,fa
+"MLP, majority vote","World, all ages, 2050 projection",0.00267,0.010595132984791818,4.0,0.0,93.38295880149813
+"MLP, majority vote",Unselected population aged 65+,0.01,0.038834951456310676,4.0,0.0,24.75
+"MLP, majority vote",Unselected population aged 80+,0.025,0.0930232558139535,4.0,0.0,9.75
+"MLP, majority vote",New movement-disorder referral,0.4,0.7272727272727273,4.0,0.0,0.37499999999999994
+"MLP, majority vote",Suspected parkinsonism,0.6,0.8571428571428572,4.0,0.0,0.16666666666666669
+"Logistic regression, majority vote","World, all ages, 2050 projection",0.00267,0.007967453796725485,3.0,0.3333333333333333,124.51061173533084
+"Logistic regression, majority vote",Unselected population aged 65+,0.01,0.029411764705882353,3.0,0.3333333333333333,33.0
+"Logistic regression, majority vote",Unselected population aged 80+,0.025,0.07142857142857144,3.0,0.3333333333333333,12.999999999999998
+"Logistic regression, majority vote",New movement-disorder referral,0.4,0.6666666666666666,3.0,0.3333333333333333,0.4999999999999999
+"Logistic regression, majority vote",Suspected parkinsonism,0.6,0.8181818181818182,3.0,0.3333333333333333,0.22222222222222227

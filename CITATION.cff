@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Analysis code, derived results and out-of-fold predictions for two companion studies of voice-based Parkinson's disease detection"
+type: software
+license: MIT
+authors:
+  - family-names: Rizvi
+    given-names: Qaim Mehdi
+    orcid: "https://orcid.org/0000-0002-0443-5314"
+    affiliation: "Department of CSE-CSDS, Brainware University, Kolkata, India"
+  - family-names: Naqvi
+    given-names: Waqar M.
+    affiliation: "Faculty of Interdisciplinary Sciences, Jawaharlal Nehru Medical College, Datta Meghe Institute of Higher Education and Research, Wardha, India"
+  - family-names: Mishra
+    given-names: Gaurav V.
+    affiliation: "Department of Radiodiagnosis, Jawaharlal Nehru Medical College, Datta Meghe Institute of Higher Education and Research, Wardha, India"
+  - family-names: Talat
+    given-names: Sana
+    affiliation: "Department of CSE-CSDS, Brainware University, Kolkata, India"
+  - family-names: Kaur
+    given-names: Kiran
+    affiliation: "Department of CSE-CSDS, Brainware University, Kolkata, India"
+date-released: 2026-11-12

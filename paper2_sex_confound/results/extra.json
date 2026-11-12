@@ -1,0 +1,138 @@
+{
+ "single_feature_auc_b21": {
+  "pooled": {
+   "median": 0.6693400930851063,
+   "mean": 0.674065587006079,
+   "max": 0.7263962765957447,
+   "argmax": "ppq5Jitter",
+   "n_ge_0_70": 7,
+   "per_feature": {
+    "PPE": 0.5918384308510638,
+    "DFA": 0.710688164893617,
+    "RPDE": 0.668218085106383,
+    "numPulses": 0.6841339760638299,
+    "numPeriodsPulses": 0.6847988696808511,
+    "meanPeriodPulses": 0.6751994680851063,
+    "stdDevPeriodPulses": 0.6038480718085106,
+    "locPctJitter": 0.7241522606382979,
+    "locAbsJitter": 0.7224900265957447,
+    "rapJitter": 0.7104803856382979,
+    "ppq5Jitter": 0.7263962765957447,
+    "ddpJitter": 0.7111037234042553,
+    "locShimmer": 0.6631067154255319,
+    "locDbShimmer": 0.6693400930851063,
+    "apq3Shimmer": 0.6304438164893617,
+    "apq5Shimmer": 0.6524684175531915,
+    "apq11Shimmer": 0.7129737367021277,
+    "ddaShimmer": 0.6304022606382979,
+    "meanAutoCorrHarmonicity": 0.6587433510638299,
+    "meanNoiseToHarmHarmonicity": 0.6585771276595744,
+    "meanHarmToNoiseHarmonicity": 0.6659740691489362
+   }
+  },
+  "women": {
+   "median": 0.6901535682023487,
+   "mean": 0.7025709410533258,
+   "max": 0.7630231857874135,
+   "argmax": "ppq5Jitter",
+   "n_ge_0_70": 9,
+   "per_feature": {
+    "PPE": 0.6290274013851249,
+    "DFA": 0.6892502258355917,
+    "RPDE": 0.679614573923517,
+    "numPulses": 0.7222222222222222,
+    "numPeriodsPulses": 0.7220716651610961,
+    "meanPeriodPulses": 0.7169527250828064,
+    "stdDevPeriodPulses": 0.6827762722071665,
+    "locPctJitter": 0.7612165010538994,
+    "locAbsJitter": 0.7521830773863294,
+    "rapJitter": 0.7603131586871424,
+    "ppq5Jitter": 0.7630231857874135,
+    "ddpJitter": 0.7610659439927733,
+    "locShimmer": 0.6764528756398676,
+    "locDbShimmer": 0.6838301716350497,
+    "apq3Shimmer": 0.6449864498644986,
+    "apq5Shimmer": 0.66967780788919,
+    "apq11Shimmer": 0.722975007527853,
+    "ddaShimmer": 0.6449864498644986,
+    "meanAutoCorrHarmonicity": 0.6901535682023487,
+    "meanNoiseToHarmHarmonicity": 0.6901535682023487,
+    "meanHarmToNoiseHarmonicity": 0.6910569105691057
+   }
+  },
+  "men": {
+   "median": 0.5932547744819179,
+   "mean": 0.5877305005708094,
+   "max": 0.7379114181227143,
+   "argmax": "DFA",
+   "n_ge_0_70": 1,
+   "per_feature": {
+    "PPE": 0.5156440471353109,
+    "DFA": 0.7379114181227143,
+    "RPDE": 0.60503860219423,
+    "numPulses": 0.504469727752946,
+    "numPeriodsPulses": 0.5038602194229987,
+    "meanPeriodPulses": 0.514018691588785,
+    "stdDevPeriodPulses": 0.5127996749288907,
+    "locPctJitter": 0.5985371800081267,
+    "locAbsJitter": 0.5916294189353921,
+    "rapJitter": 0.5682649329540838,
+    "ppq5Jitter": 0.6001625355546526,
+    "ddpJitter": 0.568061763510768,
+    "locShimmer": 0.6298252742787485,
+    "locDbShimmer": 0.6355140186915887,
+    "apq3Shimmer": 0.5934579439252337,
+    "apq5Shimmer": 0.6184477854530679,
+    "apq11Shimmer": 0.6724908573750508,
+    "ddaShimmer": 0.5932547744819179,
+    "meanAutoCorrHarmonicity": 0.5883787078423406,
+    "meanNoiseToHarmHarmonicity": 0.5887850467289719,
+    "meanHarmToNoiseHarmonicity": 0.6017878911011784
+   }
+  }
+ },
+ "speaker_level_auc_b21": {
+  "pooled": {
+   "n_models": 11,
+   "mean": {
+    "all": 0.7458091553836236,
+    "in_men": 0.724730030906382,
+    "in_women": 0.7199045559479164
+   }
+  },
+  "men": {
+   "n_models": 11,
+   "mean": {
+    "all": 0.7450285052885621
+   }
+  },
+  "women": {
+   "n_models": 11,
+   "mean": {
+    "all": 0.693520571569352
+   }
+  }
+ },
+ "speaker_level_auc_f752": {
+  "pooled": {
+   "n_models": 10,
+   "mean": {
+    "all": 0.830543550531915,
+    "in_men": 0.7689353921170257,
+    "in_women": 0.8588903944595001
+   }
+  },
+  "men": {
+   "n_models": 10,
+   "mean": {
+    "all": 0.7781186509548964
+   }
+  },
+  "women": {
+   "n_models": 10,
+   "mean": {
+    "all": 0.8488105992171032
+   }
+  }
+ }
+}

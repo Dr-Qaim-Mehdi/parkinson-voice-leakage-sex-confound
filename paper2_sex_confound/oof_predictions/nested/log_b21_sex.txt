@@ -1,0 +1,34 @@
+b21 pooled sex s1 Logistic Regression: 1s
+b21 pooled sex s1 LDA: 0s
+b21 pooled sex s1 Gaussian NB: 1s
+b21 pooled sex s1 k-NN: 27s
+b21 pooled sex s1 Decision Tree: 3s
+b21 pooled sex s1 SVM (RBF): 7s
+b21 pooled sex s1 Random Forest: 33s
+b21 pooled sex s1 Extra Trees: 22s
+b21 pooled sex s1 Gradient Boosting: 55s
+b21 pooled sex s1 XGBoost: 17s
+b21 pooled sex s1 MLP: 106s
+b21 pooled sex s2 Logistic Regression: 1s
+b21 pooled sex s2 LDA: 0s
+b21 pooled sex s2 Gaussian NB: 1s
+b21 pooled sex s2 k-NN: 14s
+b21 pooled sex s2 Decision Tree: 5s
+b21 pooled sex s2 SVM (RBF): 12s
+b21 pooled sex s2 Random Forest: 57s
+b21 pooled sex s2 Extra Trees: 36s
+b21 pooled sex s2 Gradient Boosting: 60s
+b21 pooled sex s2 XGBoost: 18s
+b21 pooled sex s2 MLP: 106s
+b21 pooled sex s3 Logistic Regression: 1s
+b21 pooled sex s3 LDA: 0s
+b21 pooled sex s3 Gaussian NB: 1s
+b21 pooled sex s3 k-NN: 25s
+b21 pooled sex s3 Decision Tree: 3s
+b21 pooled sex s3 SVM (RBF): 8s
+b21 pooled sex s3 Random Forest: 35s
+b21 pooled sex s3 Extra Trees: 22s
+b21 pooled sex s3 Gradient Boosting: 56s
+b21 pooled sex s3 XGBoost: 19s
+b21 pooled sex s3 MLP: 110s
+DONE b21 pooled 1,2,3 sex

@@ -1,7 +1,7 @@
 # Voice-based Parkinson's disease detection: speaker leakage and sex confounding
 
 Analysis code, derived result tables and per-recording out-of-fold predictions for two companion manuscripts
-by Q. M. Rizvi, W. M. Naqvi, G. V. Mishra, S. Talat and K. Kaur:
+by Q. M. Rizvi, W. M. Naqvi, G. V. Mishra, S. Talat and T. Fatima:
 
 1. **How Much of Voice-Based Parkinson's Disease Detection Is Speaker Recognition? A Protocol-Controlled Leakage Audit in Two Corpora** (`paper1_speaker_leakage/`)
 2. **Sex as a Confound in Voice-Based Parkinson's Disease Detection: Direct Measurement in a 252-Speaker Cohort** (`paper2_sex_confound/`)
@@ -62,6 +62,10 @@ Reproduction notes (checked against the Paper 1 manuscript at the time of releas
 - **Table 6 (record-wise vs speaker-disjoint, replication cohort):** the accuracy, balanced-accuracy and ROC-AUC rows reproduce exactly. Specificity and MCC differ by at most 0.1 pp in the mean (3.1 vs 3.0 pp, 8.0 vs 7.9 pp, 11.9 vs 11.8 pp, 16.5 vs 16.6 pp), and the lower bound of the Baseline-21 specificity range is -10.9 pp here against -11.6 pp.
 - **LOSO check:** mean absolute differences 0.015 (ROC-AUC) and 0.011 (accuracy) against 0.015 and 0.010 reported; the ROC-AUC correlation is 0.893 against 0.90 reported.
 - **Thinning experiment:** the manuscript does not name its six-classifier subset, so the default here is the six models of the Paper 2 dose-response experiment (logistic regression, LDA, k-NN, SVM, random forest, XGBoost). Accuracy inflation falls from 10.0 pp (k = 6) to 4.9 pp (k = 2) and balanced-accuracy inflation from 15.8 to 6.9 pp, while ROC-AUC inflation stays between 11.3 and 13.7 pp with no trend: the same pattern as Table S7 (10.9 to 5.7, 16.3 to 8.0, 10.8 to 13.6), but individual values differ by up to about 1.5 pp. No six-classifier subset of the released Protocol A/C results reproduces the manuscript's k = 6 row, so the original thinning run probably used a slightly different pipeline; it is not recoverable from the files available.
+
+### v1.1.1
+
+Author list updated (Tahzeeb Fatima replaces Kiran Kaur); no code or results changed.
 
 ## Not yet included
 

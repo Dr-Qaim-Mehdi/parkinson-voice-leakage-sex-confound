@@ -1,13 +1,13 @@
 {
   "title": "Analysis code, derived results and out-of-fold predictions for two companion studies of voice-based Parkinson's disease detection",
   "upload_type": "software",
-  "description": "<p>Code, derived result tables and per-recording out-of-fold predictions for two companion manuscripts on voice-based Parkinson's disease detection: (1) a protocol-controlled audit of speaker-identity leakage under record-wise cross-validation in two public sustained-phonation corpora, and (2) a direct measurement of sex as a confound in the 252-speaker UCI Parkinson's Disease Classification cohort. The analyses use the public UCI Oxford Parkinson's Disease Detection Dataset and the UCI Parkinson's Disease Classification dataset (the latter is not redistributed). All analyses ran on CPU only (scikit-learn, XGBoost) with fixed seeds. Scripts for some Paper 1 analyses (speaker re-identification/ICC, replication-cohort record-wise runs, repetition-depth thinning) are not yet included and will be added in a later version; see the README.</p>",
+  "description": "<p>Code, derived result tables and per-recording out-of-fold predictions for two companion manuscripts on voice-based Parkinson's disease detection: (1) a protocol-controlled audit of speaker-identity leakage under record-wise cross-validation in two public sustained-phonation corpora, and (2) a direct measurement of sex as a confound in the 252-speaker UCI Parkinson's Disease Classification cohort. The analyses use the public UCI Oxford Parkinson's Disease Detection Dataset and the UCI Parkinson's Disease Classification dataset (the latter is not redistributed). All analyses ran on CPU only (scikit-learn, XGBoost) with fixed seeds.</p>",
   "creators": [
     {"name": "Rizvi, Qaim Mehdi", "affiliation": "Department of CSE-CSDS, Brainware University, Kolkata, India", "orcid": "0000-0002-0443-5314"},
     {"name": "Naqvi, Waqar M.", "affiliation": "Faculty of Interdisciplinary Sciences, Jawaharlal Nehru Medical College, Datta Meghe Institute of Higher Education and Research, Wardha, India"},
     {"name": "Mishra, Gaurav V.", "affiliation": "Department of Radiodiagnosis, Jawaharlal Nehru Medical College, Datta Meghe Institute of Higher Education and Research, Wardha, India"},
     {"name": "Talat, Sana", "affiliation": "Department of CSE-CSDS, Brainware University, Kolkata, India"},
-    {"name": "Kaur, Kiran", "affiliation": "Department of CSE-CSDS, Brainware University, Kolkata, India"}
+    {"name": "Fatima, Tahzeeb", "affiliation": "Department of Biotechnology Bioengineering, Khawaja Moinuddin Chishti Language University, Lucknow, Uttar Pradesh, India"}
   ],
   "license": "MIT",
   "keywords": ["Parkinson's disease", "voice biomarkers", "data leakage", "speaker recognition", "sex confounding", "subject-wise cross-validation", "sustained phonation"],
